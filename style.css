@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+*{
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 0;
+}
+
+:root {
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+}
+
+.container{
+    display: flex;
+}
+aside, main{
+    height: 100vh;
+}
+aside{
+    margin: 0;
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #22212C;
+}
+.perfil{
+    border-radius: 15px;
+    margin-top: 2rem;
+    width: calc(100% - 4rem);
+    height: 30%;
+    background-color: #302F3D;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    box-shadow: 2px 2px 0 0 #1C1C1C;
+}
+.infos{
+    border-radius: 15px;
+    margin-top: 2rem;
+    width: calc(100% - 4rem);
+    height: 50%;
+    background-color: #302F3D;
+    box-shadow: 2px 2px 0 0 #1C1C1C;
+    display: flex;
+    flex-direction: row;
+}
+.techs{
+    border-radius: 15px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: calc(100% - 4rem);
+    height: 20%;
+    background-color: #302F3D;
+    box-shadow: 2px 2px 0 0 #1C1C1C;
+}
+.perfil h2:nth-child(2), .perfil p:nth-child(3){
+    color: #837E9F;
+}
+.perfil img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 7px;
+    margin-top: 5px;
+    padding: 1px;
+    border: greenyellow solid 2px;
+}
+.perfil p{
+    font-size: 80%;
+}
+.perfil h2{
+    margin-bottom: 4px;
+}
+.icones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-left: 1.2rem;
+    margin-right: 0.9rem;
+}
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.8rem;
+    color: #837E9F;
+}
+.techs h4{
+    color: #837E9F;
+    margin: 15px 0 0 15px;
+}
+.tecnologias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    gap: 8px;
+}
+.tecnologias div:nth-child(1), .tecnologias div:nth-child(2),
+.tecnologias div:nth-child(3), .tecnologias div:nth-child(4),
+.tecnologias div:nth-child(5), .tecnologias div:nth-child(6){
+    background-color: #CB92B1;
+    width: 29%;
+    height: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+main{
+    margin: 0;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    background-color: #22212C;
+}
+.title{
+    border-radius: 19px;
+    margin-top: 2rem;
+    width: calc(100% - 4rem);
+    height: 13%;
+    background-color: #302F3D;
+    box-shadow: 2px 2px 0 0 #1C1C1C;
+    margin-left: 2rem;
+    display: flex;
+}
+.title h2{
+    color: #837E9F;
+    margin: 30px 0 0 25px;
+}
+.projeto1, .projeto2, .projeto3, .projeto4{
+    border-radius: 19px;
+    margin-top: 2rem;
+    width: calc(50% - 4rem);
+    height: 20%;
+    background-color: #302F3D;
+    box-shadow: 2px 2px 0 0 #1C1C1C;
+    margin-left: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pasta{
+    width: 25px;
+    height: 50%;
+
+    margin-left: 20px;
+}
+#linkproj{
+    text-decoration: underline;
+    color: #837E9F;
+    padding: 0;
+
+    width: 200px;
+    height: 20%;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.projeto1 p, .projeto2 p, .projeto3 p, .projeto4 p{
+    color: #837E9F;
+    font-size: small;
+
+    width: 100%;
+    height: 40%;
+    margin-left: 20px;
+}
+#linkproj:hover{
+    color: #CB92B1;
+}
